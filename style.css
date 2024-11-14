@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding:0 ;
+}
+
+body{
+    background-color: #31312f	;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    font-size: 3rem;
+    background-color: rgb(29, 28, 28);
+    color: #fff;
+}
+.choices{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.choice{
+    width: 165px;
+    height: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 5rem; */
+    
+
+}
+.choice img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    
+}
+.choice:hover{
+    background-color: rgb(10, 7, 7);
+    opacity: 0.5;
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 30px;
+}
+
+.score{
+    color: #fff;
+    font-size: 2rem;
+    /* color: #1b1a1a; */
+}
+
+.score .user-score{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+.score .computer-score{
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.msg #msg-p {
+    font-size: 2.7rem;
+    color: #1b1a1a;
+    background-color: rgb(246, 250, 19);
+    padding: 15px;
+    border-radius: 8px;
+}
